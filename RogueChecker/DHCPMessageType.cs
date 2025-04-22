@@ -1,0 +1,13 @@
+namespace RogueChecker;
+
+public enum DHCPMessageType
+{
+	DHCPDISCOVER = 1,
+	DHCPOFFER,
+	DHCPREQUEST,
+	DHCPDECLINE,
+	DHCPACK,
+	DHCPNACK,
+	DHCPRELEASE,
+	DHCPINFORM
+}
